@@ -36,8 +36,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         InMemoryUserDetailsManager manager = new InMemoryUserDetailsManager();
         manager.createUser(
                 User.withDefaultPasswordEncoder() // Sử dụng mã hóa password đơn giản
-                    .username("loda")
-                    .password("loda")
+                    .username("longlt22")
+                    .password("longlt22")
                     .roles("USER") // phân quyền là người dùng.
                     .build()
         );
